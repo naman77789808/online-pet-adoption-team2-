@@ -1,1 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Profile - Online Pet Adoption Platform</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+
+  <div class="container mt-5">
+    <h2 class="text-center">Welcome, <span id="username">John Doe</span></h2>
+
+    <div class="card mt-4">
+      <div class="card-header">
+        Your Profile Information
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Personal Details</h5>
+        <p class="card-text"><strong>Email:</strong> john.doe@example.com</p>
+        <p class="card-text"><strong>Username:</strong> johndoe123</p>
+
+        <a href="edit-profile.html" class="btn btn-primary">Edit Profile</a>
+        <a href="logout.html" class="btn btn-danger">Logout</a>
+      </div>
+    </div>
+
+    <div class="mt-4">
+      <h3>Your Adoption Applications</h3>
+      <ul>
+        <li><strong>Adopted Pet:</strong> Max the Dog (Pending)</li>
+        <li><strong>Adopted Pet:</strong> Whiskers the Cat (Approved)</li>
+      </ul>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
 
